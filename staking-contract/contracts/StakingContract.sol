@@ -2,7 +2,6 @@
 pragma solidity ^0.8.0;
 
 import "@thirdweb-dev/contracts/base/Staking20Base.sol";
-import "@thirdweb-dev/contracts/token/TokenERC20.sol";
 
 contract StakingContract is Staking20Base {
     constructor(
